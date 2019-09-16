@@ -1,8 +1,16 @@
----
-description: reverse
----
-
 # Reverse Shells
+
+### Upgrade your shell, upgrade your life
+
+```bash
+# On compromised host
+python -c 'import pty; pty.spawn("/bin/bash")'
+# ctrl-z
+
+# While terminal session backgrounded
+stty raw -echo
+fg
+```
 
 ### PHP
 

