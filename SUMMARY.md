@@ -9,4 +9,5 @@
 * [Windows](oscp/untitled-2.md)
 * [Building MIMIKATZ for older versions of Windows](oscp/building-mimikatz-for-older-versions-of-windows.md)
 * [Compilation Reference](oscp/compiling.md)
+* [Hash Cracking](oscp/hash-cracking.md)
 
