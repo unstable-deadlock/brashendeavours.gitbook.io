@@ -6,7 +6,11 @@
 
 ## Windows Enumeration
 
+#### Port forwarding
 
+```bash
+netsh interface portproxy add v4tov4 listenaddress=10.11.1.73 listenport=8443 connectaddress=127.0.0.1 connectport=8443
+```
 
 ## Windows Post Exploitation
 
