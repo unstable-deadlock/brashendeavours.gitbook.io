@@ -1,7 +1,8 @@
 # Table of contents
 
 * [About](README.md)
-* [Pentesting Cheatsheets](pentesting-cheatsheets.md)
+* [Pentesting Cheatsheets](pentesting-cheatsheets/README.md)
+  * [Hashcat Hash Modes](pentesting-cheatsheets/hashcat-hash-modes.md)
 
 ## OSCP
 
