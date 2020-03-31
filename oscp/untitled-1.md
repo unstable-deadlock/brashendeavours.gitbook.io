@@ -1,13 +1,4 @@
-# Port References
-
-## UDP:161 SNMP
-
-### Enumerate possible information with snmp-check
-
-```bash
-# DEFAULTS snmp-check $target -c public -p 161 -v 1
-snmp-check $TARGET
-```
+# SNMP \(UDP:161\)
 
 ### nmap NSE Scripts
 
@@ -16,13 +7,20 @@ snmp-check $TARGET
 nmap $target -vv --reason -Pn -sU -sV -p 161 --script="banner,(snmp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)"
 ```
 
-### Brute-force Community Strings:
+### \*Preferred\* Enumerate possible information with snmp-check
+
+```bash
+# DEFAULTS snmp-check $target -c public -p 161 -v 1
+snmp-check $TARGET
+```
+
+### Brute-force community strings:
 
 ```bash
 onesixtyone $target -c /usr/share/wordlists/seclists/Discovery/SNMP/common-snmp-community-strings-onesixtyone.txt
 ```
 
-### Manual Enumeration of Information
+### Manual enumeration of information
 
 ```bash
 # Windows User Accounts
